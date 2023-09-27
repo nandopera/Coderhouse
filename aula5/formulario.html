@@ -7,15 +7,27 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Formulário de contato</h2>
-    <form action="">
-        <label for="nome">Nome:</label>
-        <input type="text"><br>
-        <label for="gen">Gênero:</label>
-        <input type="select" name="gen" value="Masculino">
-        <input type="select" name="gen" value="Feminino">
-        <input type="select" name="gen" value="Não Binário">
-        <input type="select" name="gen" value="Outro">
+    
+    <form>
+        <fieldset>
+            <legend><h2>Informações Pessoais:</h2></legend>
+            <label for="gen">Gênero:</label><br>
+            <input type="radio" name="gen"><span>Masculino</span>
+            <input type="radio" name="gen"><span>Feminino</span>
+            <input type="radio" name="gen"><span>Outro</span><br>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="Nome"><br>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" name="sobrenome" placeholder="Sobrenome">
+            </p>
+                <label for="gen">Tamanho:</label>
+                <select name="estados">
+                    <option value="gr">Grande</option>
+                    <option value="md">Médio</option>
+                    <option value="pq">Pequeno</option>
+                </select>
+        </fieldset>
     </form>
     <div><a href="https://nandopera.github.io/Coderhouse/">Voltar</a></div>
 </body>
