@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #837263 0, #556C56 40% 60%, #837263);
+}
+h1 {
+    font-size: 3rem;
+    color: #E5D4C5;
+}
+.content {
+    margin: 20% auto;
+    min-width: 300px;
+    max-width: 40rem;
+    height: 600px;
+    display: flex;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items:first baseline;
+    padding: 2rem 0;
+    background: rgba(98, 49, 33, .7);
+}
+
+.starDetails {
+
+}

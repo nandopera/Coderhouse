@@ -1,0 +1,23 @@
+body {
+    background: #333;
+    color: beige;
+}
+
+.conteudo {
+    margin: 10% auto;
+    width: 600px;
+    padding: 2rem;
+    background: rgba(150, 100, 100, .5);
+}
+
+.desafio1 {
+    color: darkorange;
+}
+
+#lista1 {
+    color:lightseagreen;
+}
+
+#lista2 {
+    color: aquamarine;
+}
