@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
 body {
     background: #333;
     color: beige;
+    font-family: Tektur;
 }
 
 .conteudo {
     margin: 10% auto;
     width: 600px;
     padding: 2rem;
+    border-radius: 3rem;
     background: rgba(150, 100, 100, .5);
 }
 
@@ -16,8 +20,27 @@ body {
 
 #lista1 {
     color:lightseagreen;
+    list-style: none;
+}
+#lista1>li::before {
+    content: "\e877 ";
+    font-family: "Material Icons";
 }
 
 #lista2 {
-    color: aquamarine;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 2rem;
+    height: 300px;
+    padding: 30px 30px;
+    color: rgb(3, 66, 45);
+    list-style: none;
+    background: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1424&q=80);
+    background-position: 10% 10%;
+    background-repeat: no-repeat;
+}
+#lista2>li::before {
+    content: "\e7f2 - ";
+    
+    font-family: "Material Icons";
+    
 }
